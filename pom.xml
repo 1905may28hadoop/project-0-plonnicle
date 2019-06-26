@@ -13,21 +13,28 @@
 		<log4j.configuration>log4j.properties</log4j.configuration>
 	</properties>
 
-	<dependencies>
-		<!-- JUnit -->
-		<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-			<version>4.12</version>
-			<scope>test</scope>
-		</dependency>
+		<dependencies>
+			<!-- JUnit -->
+			<dependency>
+				<groupId>junit</groupId>
+				<artifactId>junit</artifactId>
+				<version>4.12</version>
+				<scope>test</scope>
+			</dependency>
 
+			<!-- Log4j -->
+			<dependency>
+				<groupId>log4j</groupId>
+				<artifactId>log4j</artifactId>
+				<version>1.2.17</version>
+			</dependency>
 
-		<!-- Log4j -->
-		<dependency>
-			<groupId>log4j</groupId>
-			<artifactId>log4j</artifactId>
-			<version>1.2.17</version>
-		</dependency>
-	</dependencies>
+			<!-- OJDBC 7 -->
+			<dependency>
+				<artifactId>ojdbc7</artifactId>
+				<groupId>com.oracle</groupId>
+				<version>12.1.0</version>
+			</dependency>
+		</dependencies>
+
 </project>
